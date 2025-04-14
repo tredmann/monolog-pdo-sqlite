@@ -1,0 +1,22 @@
+{
+    "name": "tredmann/monolog-pdo-sqlite",
+    "autoload": {
+        "psr-4": {
+            "Monolite\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tobias Redmann",
+            "email": "tobias.redmann@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "monolog/monolog": "^3.9",
+        "phpunit/phpunit": "^12.1",
+        "laravel/pint": "^1.22"
+    },
+    "require": {
+        "ext-pdo": "*"
+    }
+}
